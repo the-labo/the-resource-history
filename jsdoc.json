@@ -31,7 +31,7 @@
       }
     },
     {
-      "name": "TheManageHistoryResource",
+      "name": "TheManageActionHistoryResource",
       "description": "",
       "extends": [
         "Resource"
@@ -40,28 +40,28 @@
       "virtual": false,
       "fires": "",
       "constructor": {
-        "name": "TheManageHistoryResource",
-        "description": "History of manage",
+        "name": "TheManageActionHistoryResource",
+        "description": "History of action",
         "parameters": [],
         "examples": []
       }
     },
     {
-      "name": "TheManageHistoryResourceEntity",
+      "name": "TheManageActionHistoryResourceEntity",
       "description": "",
       "extends": [],
       "access": "",
       "virtual": false,
       "fires": "",
       "constructor": {
-        "name": "TheManageHistoryResourceEntity",
+        "name": "TheManageActionHistoryResourceEntity",
         "description": "",
         "parameters": [],
         "examples": []
       }
     },
     {
-      "name": "TheManageUserResource",
+      "name": "ThePasswordHistoryResource",
       "description": "",
       "extends": [
         "Resource"
@@ -70,21 +70,21 @@
       "virtual": false,
       "fires": "",
       "constructor": {
-        "name": "TheManageUserResource",
-        "description": "History of user",
+        "name": "ThePasswordHistoryResource",
+        "description": "History of password",
         "parameters": [],
         "examples": []
       }
     },
     {
-      "name": "TheManageUserResourceEntity",
+      "name": "ThePasswordHistoryResourceEntity",
       "description": "",
       "extends": [],
       "access": "",
       "virtual": false,
       "fires": "",
       "constructor": {
-        "name": "TheManageUserResourceEntity",
+        "name": "ThePasswordHistoryResourceEntity",
         "description": "",
         "parameters": [],
         "examples": []

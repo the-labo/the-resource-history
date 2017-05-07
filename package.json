@@ -1,6 +1,6 @@
 {
   "name": "the-resource-history",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "History resource for the-db",
   "main": "lib",
   "browser": "shim",

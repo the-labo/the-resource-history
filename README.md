@@ -107,6 +107,8 @@ Policies
 --------
 
 + [TheHistoryResource Policy](#policy-TheHistoryResource)
++ [ThePasswordHistoryResource Policy](#policy-ThePasswordHistoryResource)
++ [TheManageActionHistoryResource Policy](#policy-TheManageActionHistoryResource)
 
 <a name="policy-TheHistoryResource"/>
 
@@ -114,6 +116,28 @@ Policies
 
 | Property | Description | Type | Required | Unique |
 | ----- | ----- | --- | --- | --- |
+
+<a name="policy-ThePasswordHistoryResource"/>
+
+### ThePasswordHistoryResource Policy
+
+| Property | Description | Type | Required | Unique |
+| ----- | ----- | --- | --- | --- |
+| `userId` | Id of the target user | "cly:string" |  |  |
+| `passwordDigest` | Digest of user password | "cly:string" |  |  |
+| `at` | Date recorded at | "" |  |  |
+
+<a name="policy-TheManageActionHistoryResource"/>
+
+### TheManageActionHistoryResource Policy
+
+| Property | Description | Type | Required | Unique |
+| ----- | ----- | --- | --- | --- |
+| `resourceName` | Target resource name | "cly:string" |  |  |
+| `action` | ManageAction type | "cly:string" |  |  |
+| `params` | ManageAction params | "cly:object" |  |  |
+| `at` | Date recorded at | "cly:date" |  |  |
+| `by` | User id who call the action | "cly:string" |  |  |
 
 
 
