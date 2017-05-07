@@ -31,36 +31,6 @@
       }
     },
     {
-      "name": "TheManageActionHistoryResource",
-      "description": "",
-      "extends": [
-        "Resource"
-      ],
-      "access": "",
-      "virtual": false,
-      "fires": "",
-      "constructor": {
-        "name": "TheManageActionHistoryResource",
-        "description": "History of action",
-        "parameters": [],
-        "examples": []
-      }
-    },
-    {
-      "name": "TheManageActionHistoryResourceEntity",
-      "description": "",
-      "extends": [],
-      "access": "",
-      "virtual": false,
-      "fires": "",
-      "constructor": {
-        "name": "TheManageActionHistoryResourceEntity",
-        "description": "",
-        "parameters": [],
-        "examples": []
-      }
-    },
-    {
       "name": "ThePasswordHistoryResource",
       "description": "",
       "extends": [
