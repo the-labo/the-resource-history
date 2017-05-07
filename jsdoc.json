@@ -1,0 +1,117 @@
+{
+  "classes": [
+    {
+      "name": "TheHistoryResource",
+      "description": "",
+      "extends": [
+        "Resource"
+      ],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "TheHistoryResource",
+        "description": "History resource for the-db",
+        "parameters": [],
+        "examples": []
+      }
+    },
+    {
+      "name": "TheHistoryResourceEntity",
+      "description": "",
+      "extends": [],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "TheHistoryResourceEntity",
+        "description": "",
+        "parameters": [],
+        "examples": []
+      }
+    },
+    {
+      "name": "TheManageHistoryResource",
+      "description": "",
+      "extends": [
+        "Resource"
+      ],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "TheManageHistoryResource",
+        "description": "History of manage",
+        "parameters": [],
+        "examples": []
+      }
+    },
+    {
+      "name": "TheManageHistoryResourceEntity",
+      "description": "",
+      "extends": [],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "TheManageHistoryResourceEntity",
+        "description": "",
+        "parameters": [],
+        "examples": []
+      }
+    },
+    {
+      "name": "TheManageUserResource",
+      "description": "",
+      "extends": [
+        "Resource"
+      ],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "TheManageUserResource",
+        "description": "History of user",
+        "parameters": [],
+        "examples": []
+      }
+    },
+    {
+      "name": "TheManageUserResourceEntity",
+      "description": "",
+      "extends": [],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "TheManageUserResourceEntity",
+        "description": "",
+        "parameters": [],
+        "examples": []
+      }
+    }
+  ],
+  "functions": [
+    {
+      "name": "create",
+      "access": "",
+      "virtual": false,
+      "description": "Create a TheHistoryResource instance",
+      "parameters": [
+        {
+          "name": "args",
+          "type": "*",
+          "description": "",
+          "default": "",
+          "optional": "",
+          "nullable": ""
+        }
+      ],
+      "examples": [],
+      "returns": {
+        "type": "TheHistoryResource",
+        "description": ""
+      }
+    }
+  ]
+}
