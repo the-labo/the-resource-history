@@ -108,7 +108,6 @@ Policies
 
 + [TheHistoryResource Policy](#policy-TheHistoryResource)
 + [ThePasswordHistoryResource Policy](#policy-ThePasswordHistoryResource)
-+ [TheManageActionHistoryResource Policy](#policy-TheManageActionHistoryResource)
 
 <a name="policy-TheHistoryResource"/>
 
@@ -127,18 +126,6 @@ Policies
 | `passwordDigest` | Digest of user password | "cly:string" |  |  |
 | `at` | Date recorded at | "" |  |  |
 
-<a name="policy-TheManageActionHistoryResource"/>
-
-### TheManageActionHistoryResource Policy
-
-| Property | Description | Type | Required | Unique |
-| ----- | ----- | --- | --- | --- |
-| `resourceName` | Target resource name | "cly:string" |  |  |
-| `action` | ManageAction type | "cly:string" |  |  |
-| `params` | ManageAction params | "cly:object" |  |  |
-| `at` | Date recorded at | "cly:date" |  |  |
-| `by` | User id who call the action | "cly:string" |  |  |
-
 
 
 <!-- Section from "doc/guides/11.Policies.md.hbs" End -->
@@ -150,14 +137,14 @@ Policies
 API Guide
 -----
 
-+ [the-resource-history@1.0.0](./doc/api/api.md)
++ [the-resource-history@1.0.1](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-resource-history-function-create)
   + [TheHistoryResource](./doc/api/api.md#the-history-resource-class)
   + [TheHistoryResourceEntity](./doc/api/api.md#the-history-resource-entity-class)
-  + [TheManageHistoryResource](./doc/api/api.md#the-manage-history-resource-class)
-  + [TheManageHistoryResourceEntity](./doc/api/api.md#the-manage-history-resource-entity-class)
-  + [TheManageUserResource](./doc/api/api.md#the-manage-user-resource-class)
-  + [TheManageUserResourceEntity](./doc/api/api.md#the-manage-user-resource-entity-class)
+  + [TheManageActionHistoryResource](./doc/api/api.md#the-manage-action-history-resource-class)
+  + [TheManageActionHistoryResourceEntity](./doc/api/api.md#the-manage-action-history-resource-entity-class)
+  + [ThePasswordHistoryResource](./doc/api/api.md#the-password-history-resource-class)
+  + [ThePasswordHistoryResourceEntity](./doc/api/api.md#the-password-history-resource-entity-class)
 
 
 <!-- Section from "doc/guides/20.API Guide.md.hbs" End -->

@@ -1,4 +1,4 @@
-# the-resource-history@1.0.0
+# the-resource-history@1.0.1
 
 History resource for the-db
 
@@ -8,14 +8,14 @@ History resource for the-db
   + [new TheHistoryResource()](#the-resource-history-classes-the-history-resource-constructor)
 + [`TheHistoryResourceEntity`](#the-resource-history-classes) Class
   + [new TheHistoryResourceEntity()](#the-resource-history-classes-the-history-resource-entity-constructor)
-+ [`TheManageHistoryResource`](#the-resource-history-classes) Class
-  + [new TheManageHistoryResource()](#the-resource-history-classes-the-manage-history-resource-constructor)
-+ [`TheManageHistoryResourceEntity`](#the-resource-history-classes) Class
-  + [new TheManageHistoryResourceEntity()](#the-resource-history-classes-the-manage-history-resource-entity-constructor)
-+ [`TheManageUserResource`](#the-resource-history-classes) Class
-  + [new TheManageUserResource()](#the-resource-history-classes-the-manage-user-resource-constructor)
-+ [`TheManageUserResourceEntity`](#the-resource-history-classes) Class
-  + [new TheManageUserResourceEntity()](#the-resource-history-classes-the-manage-user-resource-entity-constructor)
++ [`TheManageActionHistoryResource`](#the-resource-history-classes) Class
+  + [new TheManageActionHistoryResource()](#the-resource-history-classes-the-manage-action-history-resource-constructor)
++ [`TheManageActionHistoryResourceEntity`](#the-resource-history-classes) Class
+  + [new TheManageActionHistoryResourceEntity()](#the-resource-history-classes-the-manage-action-history-resource-entity-constructor)
++ [`ThePasswordHistoryResource`](#the-resource-history-classes) Class
+  + [new ThePasswordHistoryResource()](#the-resource-history-classes-the-password-history-resource-constructor)
++ [`ThePasswordHistoryResourceEntity`](#the-resource-history-classes) Class
+  + [new ThePasswordHistoryResourceEntity()](#the-resource-history-classes-the-password-history-resource-entity-constructor)
 
 ## Functions
 
@@ -70,46 +70,9 @@ Constructor of TheHistoryResourceEntity class
 
 <a class='md-heading-link' name="the-resource-history-classes"></a>
 
-## `TheManageHistoryResource` Class
+## `TheManageActionHistoryResource` Class
 
-History of manage
-
-**Extends**: 
-
-+ `Resource`
-
-
-
-<a class='md-heading-link' name="the-resource-history-classes-the-manage-history-resource-constructor" ></a>
-
-### new TheManageHistoryResource()
-
-Constructor of TheManageHistoryResource class
-
-
-
-<a class='md-heading-link' name="the-resource-history-classes"></a>
-
-## `TheManageHistoryResourceEntity` Class
-
-
-
-
-
-
-<a class='md-heading-link' name="the-resource-history-classes-the-manage-history-resource-entity-constructor" ></a>
-
-### new TheManageHistoryResourceEntity()
-
-Constructor of TheManageHistoryResourceEntity class
-
-
-
-<a class='md-heading-link' name="the-resource-history-classes"></a>
-
-## `TheManageUserResource` Class
-
-History of user
+History of action
 
 **Extends**: 
 
@@ -117,28 +80,65 @@ History of user
 
 
 
-<a class='md-heading-link' name="the-resource-history-classes-the-manage-user-resource-constructor" ></a>
+<a class='md-heading-link' name="the-resource-history-classes-the-manage-action-history-resource-constructor" ></a>
 
-### new TheManageUserResource()
+### new TheManageActionHistoryResource()
 
-Constructor of TheManageUserResource class
+Constructor of TheManageActionHistoryResource class
 
 
 
 <a class='md-heading-link' name="the-resource-history-classes"></a>
 
-## `TheManageUserResourceEntity` Class
+## `TheManageActionHistoryResourceEntity` Class
 
 
 
 
 
 
-<a class='md-heading-link' name="the-resource-history-classes-the-manage-user-resource-entity-constructor" ></a>
+<a class='md-heading-link' name="the-resource-history-classes-the-manage-action-history-resource-entity-constructor" ></a>
 
-### new TheManageUserResourceEntity()
+### new TheManageActionHistoryResourceEntity()
 
-Constructor of TheManageUserResourceEntity class
+Constructor of TheManageActionHistoryResourceEntity class
+
+
+
+<a class='md-heading-link' name="the-resource-history-classes"></a>
+
+## `ThePasswordHistoryResource` Class
+
+History of password
+
+**Extends**: 
+
++ `Resource`
+
+
+
+<a class='md-heading-link' name="the-resource-history-classes-the-password-history-resource-constructor" ></a>
+
+### new ThePasswordHistoryResource()
+
+Constructor of ThePasswordHistoryResource class
+
+
+
+<a class='md-heading-link' name="the-resource-history-classes"></a>
+
+## `ThePasswordHistoryResourceEntity` Class
+
+
+
+
+
+
+<a class='md-heading-link' name="the-resource-history-classes-the-password-history-resource-entity-constructor" ></a>
+
+### new ThePasswordHistoryResourceEntity()
+
+Constructor of ThePasswordHistoryResourceEntity class
 
 
 
